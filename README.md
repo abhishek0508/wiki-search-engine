@@ -11,7 +11,7 @@
 
 ### Objectives : 
 
-Create a complete search engine by creating an Inverted Index on the Wikipedia Corpus ( of 2018 with size 72 GB), that gives you top search result related to given query words.
+Create a complete search engine by creating an Inverted Index on the Wikipedia Corpus ( of 2020 with size 43 GB), that gives you top search result related to given query words.
 
 In this project two types of queries are handles : 
 
@@ -32,7 +32,7 @@ The search results are ordered in ranking using a weighted TF-IDF ranking based 
 
 ### Implementation Details : 
 
-* The main challenge to create an Inverted Index for a huge file has a tradeoff between the size of Inverted Index and the search time. The main Inverted Index created was around 64.x GB but i create 3 levels of offset files to make sure the index file loaded in the main memory at a time does not exceed 800 MB. (To be done whole dataset in phase_2)
+* The main challenge to create an Inverted Index for a huge file has a tradeoff between the size of Inverted Index and the search time. The main Inverted Index created was around 8.9 GB but i created offset files to make sure the index file loaded in the main memory at a time does not exceed 250 MB.
 
 Following Steps Follows to create Inverted Indexing : 
 
